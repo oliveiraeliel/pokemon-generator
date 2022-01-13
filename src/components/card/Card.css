@@ -1,0 +1,29 @@
+.card {
+    display         : flex;
+    justify-content : center;
+    flex-direction  : column;
+    width           : 400px;
+    height          : 600px;
+    background-color: tomato;
+    border-radius   : 10px;
+    text-align      : center;
+
+}
+
+.img{
+    max-height: 300px;
+    max-width: 350px;
+    min-width: 150px;
+    min-width: 150px;
+
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15pt;
+}
+
+a{
+    font-size: 20pt;
+}
