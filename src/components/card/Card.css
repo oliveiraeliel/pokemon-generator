@@ -3,7 +3,7 @@
     justify-content : center;
     flex-direction  : column;
     width           : 400px;
-    height          : 600px;
+    height          : 575px;
     background-color: tomato;
     border-radius   : 10px;
     text-align      : center;
@@ -27,3 +27,8 @@ ul{
 a{
     font-size: 20pt;
 }
+
+ul li h1{
+    margin-bottom: 20px;
+}
+

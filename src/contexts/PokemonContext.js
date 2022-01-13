@@ -9,6 +9,12 @@ export default function PokemonContextProvider({ children }) {
   const [ability, setAbility] = useState(null);
   const [img, setImg] = useState("");
   const [type, setType] = useState(null);
+  const [hp, setHp] = useState(null);
+  const [atack, setAtack] = useState(null);
+  const [defense, setDefense] = useState(null);
+  const [sAtack, setSAtack] = useState(null);
+  const [sDefense, setSDefense] = useState(null);
+  const [speed, setSpeed] = useState(null);
 
   const state = {
     pokeId,
@@ -23,6 +29,18 @@ export default function PokemonContextProvider({ children }) {
     setName,
     type,
     setType,
+    hp,
+    setHp,
+    defense,
+    setDefense,
+    atack,
+    setAtack,
+    sAtack,
+    setSAtack,
+    sDefense,
+    setSDefense,
+    speed,
+    setSpeed,
   };
 
   return (

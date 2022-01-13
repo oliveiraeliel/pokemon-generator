@@ -1,0 +1,30 @@
+.stats{
+    margin-left: auto;
+    margin: 1px solid black;
+    display: block;
+    position: relative;
+}
+
+table{
+    margin: 1px solid black;
+}
+
+table .a{
+    border-bottom: solid rgb(93, 92, 109) 2px;
+    /* border-radius: 10px; */
+    width: 135px;
+    text-align: center;
+}
+
+td{
+    padding: 10px
+
+}
+
+.stats{
+    width: 210px;
+    background-color: rgb(145, 145, 223);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px groove rgb(168, 168, 168);
+}

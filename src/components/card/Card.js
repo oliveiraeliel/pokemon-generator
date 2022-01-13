@@ -1,20 +1,31 @@
 import React from "react";
 import { useContext } from "react/cjs/react.development";
 import { PokemonContext } from "../../contexts/PokemonContext";
+// import { AiOutlineInfoCircle } from "react-icons/ai";
 
 import "./Card.css";
 
 function Card() {
-  const { name, img, ability, type } = useContext(PokemonContext);
+  const { name, img, ability, type, infoButtonPressed, setInfoButtonPressed } =
+    useContext(PokemonContext);
+
+
+
   return (
     <div className="card">
-      <img src={img} className="img"></img>
-      <ul>
-        <li>Name: <a>{name}</a></li>
-        <li>Ability: <a>{ability}</a></li>
-        <li>Type: <a>{type}</a></li>
-      </ul>
-    </div>
+        <img src={img} className="img"></img>
+        <ul>
+          <li>
+            <h1>{name}</h1>
+          </li>
+          <li>
+            {name ? "Ability:" : ""} <a>{ability}</a>
+          </li>
+          <li>
+            {name ? "Type:" : ""} <a>{type}</a>
+          </li>
+        </ul>
+      </div>
   );
 }
 
