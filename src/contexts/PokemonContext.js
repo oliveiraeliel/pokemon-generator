@@ -43,7 +43,5 @@ export default function PokemonContextProvider({ children }) {
     setSpeed,
   };
 
-  return (
-    <PokemonContext.Provider value={state}>{children}</PokemonContext.Provider>
-  );
+  return <PokemonContext.Provider value={state}>{children}</PokemonContext.Provider>;
 }
