@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pokemon-generator/static/css/main.3dabbad1.css",
-    "main.js": "/pokemon-generator/static/js/main.5b63d1da.js",
+    "main.js": "/pokemon-generator/static/js/main.10186f7d.js",
     "index.html": "/pokemon-generator/index.html",
     "main.3dabbad1.css.map": "/pokemon-generator/static/css/main.3dabbad1.css.map",
-    "main.5b63d1da.js.map": "/pokemon-generator/static/js/main.5b63d1da.js.map"
+    "main.10186f7d.js.map": "/pokemon-generator/static/js/main.10186f7d.js.map"
   },
   "entrypoints": [
     "static/css/main.3dabbad1.css",
-    "static/js/main.5b63d1da.js"
+    "static/js/main.10186f7d.js"
   ]
 }
